@@ -44,3 +44,26 @@ Download from https://ffmpeg.org/download.html and add to PATH.
 ```python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows```
+
+- **Install Python dependencies:**
+```python analyze_calls_en.py
+```
+The script will process each file, output basic info per file, and print a summary at the end.
+
+## Notes
+
+- Whisper model will download the first time it runs (~70-150MB depending on model size).
+
+- Sentiment model will also be downloaded on first run.
+
+- Modify spam keywords and good call phrases in the script as needed to fit your use case.
+
+- For better spam/good call detection, consider collecting labeled data and training a custom classifier.
+
+## Extending
+- Add speaker diarization to separate customer/agent voices (look into pyannote.audio)
+
+- Add topic modeling or advanced NLP for better behavior analytics
+
+- Integrate with a database or dashboard for monitoring call center quality metrics
+
