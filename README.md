@@ -41,13 +41,17 @@ Download from https://ffmpeg.org/download.html and add to PATH.
 
 - **Create and activate a Python virtual environment (optional but recommended):**  
 
-```python3 -m venv venv
+```
+python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows```
+venv\Scripts\activate     # Windows
+```
 
 - **Install Python dependencies:**
-```python analyze_calls_en.py
 ```
+python analyze_calls_en.py
+```
+
 The script will process each file, output basic info per file, and print a summary at the end.
 
 ## Notes
