@@ -72,3 +72,10 @@ python analyze_calls_en.py
 
 - Integrate with a database or dashboard for monitoring call center quality metrics
 
+## Contacts
+To contact me please pm:
+
+Telegram: https://t.me/ryu8777
+
+Discord: https://discord.gg/zSw58e9Uvf
+
