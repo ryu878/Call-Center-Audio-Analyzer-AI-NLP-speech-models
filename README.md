@@ -32,9 +32,10 @@ This Python script processes a folder of `.wav` call recordings locally and prod
 1. Install FFmpeg:
 
 - **Ubuntu/Debian:**  
-  ```bash
-  sudo apt update
-  sudo apt install ffmpeg```
+```
+sudo apt update
+sudo apt install ffmpeg
+```
 
 - **Windows:** 
 Download from https://ffmpeg.org/download.html and add to PATH.
