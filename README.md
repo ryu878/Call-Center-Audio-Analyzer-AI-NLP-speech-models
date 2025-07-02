@@ -1,4 +1,4 @@
-# English Call Center Audio Analyzer (Local)
+# English Call Center Audio Analyzer (Local) using AI/NLP/speech models
 
 This Python script processes a folder of `.wav` call recordings locally and produces statistics including:
 
