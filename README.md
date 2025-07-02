@@ -40,7 +40,7 @@ sudo apt install ffmpeg
 - **Windows:** 
 Download from https://ffmpeg.org/download.html and add to PATH.
 
-- **Create and activate a Python virtual environment (optional but recommended):**  
+2. Create and activate a Python virtual environment (optional but recommended)
 
 ```
 python3 -m venv venv
