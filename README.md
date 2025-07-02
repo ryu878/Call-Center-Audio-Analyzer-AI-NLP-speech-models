@@ -35,7 +35,7 @@ This Python script processes a folder of `.wav` call recordings locally and prod
 ```
 sudo apt update
 sudo apt install ffmpeg
-```
+
 
 - **Windows:** 
 Download from https://ffmpeg.org/download.html and add to PATH.
@@ -46,12 +46,11 @@ Download from https://ffmpeg.org/download.html and add to PATH.
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
-```
 
 - **Install Python dependencies:**
 ```
 python analyze_calls_en.py
-```
+
 
 The script will process each file, output basic info per file, and print a summary at the end.
 
